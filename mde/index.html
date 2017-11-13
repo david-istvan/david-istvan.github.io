@@ -27,27 +27,53 @@ By choosing one of these topics, you will have the opportunity to get acquainted
 
     <br />
     <h3>[<a id="2">2</a>] A language for modeling performance metrics and KPI of engineering processes (Xtext)</h3>
-    <p><b>Background</b></p>
-    <ul>
-    <li>Engineering Process Transformation to Manage (In)consistency, I. Dávid, J. Denil, K. Gadeyne, H. Vangheluwe, 1st International Workshop on Collaborative Modelling in MDE, 2016</li>
-    <li>Process Cost Modeling: Strategic Engineering and Economic Evaluation of Materials Technologies, F. Field, R. Kirchain, R. Roth, JOM (2007) 59: 21. https://doi.org/10.1007/s11837-007-0126-0</li>
-    </ul>
+    <div style="margin:0 0 0 25;">
+        Evaluating the performance of (engineering or business) processes requires well-defined metrics, called key performance indicators (KPIs). These high level indicators combine various metrics into one high level indicator, for example: the cost of the process, the utilization of resources, etc. In this project, you'll develop a language for modeling such KPIs and an will provide a framework for evaluating these in processes based on the FTG+PM framework [1].
+        Your tasks are:
+        <ol>
+            <li>Researching some of the techniques of process cost modeling [2], defining an appropriate language for modeling costs and implementing a supporting IDE with Xtext.</li>
+            <li>Providing a framework for evaluating KPIs.</li>
+            <li>Demonstrating your results through a simple example.</li>
+        </ol>
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Engineering Process Transformation to Manage (In)consistency, I. Dávid, J. Denil, K. Gadeyne, H. Vangheluwe, 1st International Workshop on Collaborative Modelling in MDE, 2016 [<a href="http://msdl.cs.mcgill.ca/people/istvan/pub/commitmde-2016-processes">PDF</a>]<br />
+            [2] Process Cost Modeling: Strategic Engineering and Economic Evaluation of Materials Technologies, F. Field, R. Kirchain, R. Roth, JOM (2007) 59: 21. https://doi.org/10.1007/s11837-007-0126-0
+        </div>
+    </div>
 
     <br />
     <h3>[<a id="3">3</a>] A visual modeling language for streaming model transformations (Sirius)</h3>
-    <p><b>Background</b></p>
-    <ul>
-    <li>Foundations for Streaming Model Transformations by Complex Event Processing, I. D&aacute;vid, I. R&aacute;th, D. Varr&oacute;, International Journal on Software and Systems Modeling, pp 1--28, 2016. DOI: 10.1007/s10270-016-0533-1. [<a href="http://link.springer.com/content/pdf/10.1007%2Fs10270-016-0533-1.pdf">Open access pdf</a>].</li>
-    <li>The "Physics" of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering, D. L. Moody, IEEE Transactions on Software Engineering, vol. 35, no. 6, pp. 756-779, November/December, 2009.</li>
-    </ul>
+    <div style="margin:0 0 0 25;">
+        Streaming model transformations represent a novel class of transformations to manipulate models whose elements are continuously produced or modified in high volume and with rapid rate of change. Executing streaming transformations requires efficient techniques to recognize activated transformation rules over a live model and a potentially infinite stream of events. In this project, you'll develop a visual modeling language for specifying transformation rules over streams. Your tasks are:
+        <ol>
+            <li>Understanding the concept and underlying techniques of streaming model transformations [1], defining an appropriate visual modeling language [2] [3] for specifying transformation rules and implementing a supporting IDE with Sirius.</li>
+            <li>Translating your streaming transformation patterns to a suitable model transformation framework.</li>
+            <li>Demonstrating your results through a simple example.</li>
+        </ol>
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Foundations for Streaming Model Transformations by Complex Event Processing, I. D&aacute;vid, I. R&aacute;th, D. Varr&oacute;, International Journal on Software and Systems Modeling, pp 1--28, 2016. DOI: 10.1007/s10270-016-0533-1. [<a href="http://link.springer.com/content/pdf/10.1007%2Fs10270-016-0533-1.pdf">Open access pdf</a>].<br />
+            [2] The "Physics" of Notations: Toward a Scientific Basis for Constructing Visual Notations in Software Engineering, D. L. Moody, IEEE Transactions on Software Engineering, vol. 35, no. 6, pp. 756-779, November/December, 2009.<br/>
+            [3] Maintaining knowledge about temporal intervals, J.F. Allen, Communications of the ACM 26(11) pp.832-843, Nov. 1983. [<a href="https://www.ics.uci.edu/~alspaugh/cls/shr/allen.html">webpage</a>]
+        </div>
+    </div>
 
     <br />
-    <h3>[<a id="4">4</a>] A tool for viewpoints modeling and optimal formalism/tool selection in multi-paradigm modeling settings (Sirius)</h3>
-    <p><b>Background</b></p>
-    <ul>
-    <li>Viewpoints, formalisms, languages, and tools for cyber-physical systems, D. Broman, E. A. Lee, S. Tripakis, M. Törngren, Proceedings of the 6th International Workshop on Multi-Paradigm Modeling Pages 49-54</li>
-    <li>Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes, I. Dávid, B. Meyers, K. Vanherpen, Y. Van Tendeloo, K. Berx, H. Vangheluwe, 2nd International Workshop on Collaborative Modelling in MDE, 2017.</li>
-    </ul>
+    <h3>[<a id="4">4</a>] A visual process simulation tool (Sirius)</h3>
+    <div style="margin:0 0 0 25;">
+        Modeling processes is a key in many engineering and business domains. Appropriate visualizations of the process should be provided not just during the specification phase, but also during the enactment of the process. The FTG+PM framework enables explicit modeling of processes, with the execution semantics provided by model transformations. In this project you'll develop a visualization of FTG+PM conform processes under execution, using the Sirius framework. You'll start from an existing tool developed in [1]. Your tasks include:
+        <ol>
+            <li>Visualization of the process under execution.</li>
+            <li>Provinding controls for process execution.</li>
+            <li>Demonstrating your results through a simple example.</li>
+        </ol>
+
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes, I. Dávid, B. Meyers, K. Vanherpen, Y. Van Tendeloo, K. Berx, H. Vangheluwe, 2nd International Workshop on Collaborative Modelling in MDE, 2017. [<a href="http://msdl.cs.mcgill.ca/people/istvan/pub/commitmde-2017">PDF</a>]<br/>
+        </div>
+    </div>
 
 <br />
 <h2 style="background-color: #EEEEEE">Topic group #2: Theory of model transformations</h2>
