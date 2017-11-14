@@ -2,6 +2,8 @@
 <p>Contact person: <a href="http://istvandavid.com/">Istvan David</a>.</p>
 <p>Remark: should you have any questions regarding the topics, or have any new project ideas, do not hesitate to contact me.</p>
 
+<!--TODO:Interface with a Gantt tool + M2M to our PM-->
+
 <br/>
 <h2 style="background-color: #EEEEEE">Topic group #1: Design of DSLs with <a href="http://www.eclipse.org/Xtext/">Xtext</a> and <a href="https://www.eclipse.org/sirius/">Sirius</a></h2>
 <p align=justify>Domain-specific languages (DSL) are integral parts of nowadays' engineering practice. As opposed to elaborate and generic-purpose modeling languages (such as the UML), DSLs are tailored to a specific problem of a specific domain. Due to this narrow scope, newly arising problems require development of new DSLs and that, in a rapid and efficient way.<br />
@@ -28,7 +30,7 @@ By choosing one of these topics, you will have the opportunity to get acquainted
     <br />
     <h3>[<a id="2">2</a>] A language for modeling performance metrics and KPI of engineering processes (Xtext)</h3>
     <div style="margin:0 0 0 25;">
-        Evaluating the performance of (engineering or business) processes requires well-defined metrics, called key performance indicators (KPIs). These high level indicators combine various metrics into one high level indicator, for example: the cost of the process, the utilization of resources, etc. In this project, you'll develop a language for modeling such KPIs and an will provide a framework for evaluating these in processes based on the FTG+PM framework [1].
+        Evaluating the performance of engineering or business processes requires well-defined metrics, known as key performance indicators (KPIs), combining lower level metrics into a higher level one, for example: the cost of the process, the utilization of resources, etc. In this project, you'll develop a language for modeling such KPIs and an will provide a framework for evaluating these in processes based on the FTG+PM framework [1].
         Your tasks are:
         <ol>
             <li>Researching some of the techniques of process cost modeling [2], defining an appropriate language for modeling costs and implementing a supporting IDE with Xtext.</li>
@@ -43,9 +45,9 @@ By choosing one of these topics, you will have the opportunity to get acquainted
     </div>
     
     <br />
-    <h3>[<a id="3">3</a>] Tool support for process weaving (Sirius)</h3>
+    <h3>[<a id="3">3</a>] Tool support for process weaving (Sirius or Xtext)</h3>
     <div style="margin:0 0 0 25;">
-        Explicit modeling of processes sheds light on the dynamics of engineering and business related workflows, product development or stakeholder interaction. Very often, however, the underlying process is implied by the combination of multiple processes, possibly on different levels of abstraction. In this project you'll develop a modeling language for process weaving. Your work starts from our in-house process modeling tool. [1] Your tasks include:
+        Explicit modeling of processes can shed light on the dynamics of engineering and business related workflows, product development or stakeholder interaction. Very often, however, the underlying process is implied by the combination of multiple processes, possibly on different levels of abstraction. In this project you'll develop a modeling language for process weaving. Your work starts from our in-house process modeling tool. [1] Your tasks include:
         <ol>
             <li>A language for defining process weaving patterns, along with a framework for deriving the resulting process.</li>
             <li>At least one analysis technique for the resulting process based on the compositionality rules of the interwoven processes.</li>
@@ -65,7 +67,7 @@ By choosing one of these topics, you will have the opportunity to get acquainted
         Modeling processes is a key in many engineering and business domains. Appropriate visualizations of the process should be provided not just during the specification phase, but also during the enactment of the process. The FTG+PM framework enables explicit modeling of processes, with the execution semantics provided by model transformations. In this project you'll develop a visualization of FTG+PM conform processes under execution, using the Sirius framework. You'll start from an existing tool developed in [1]. Your tasks include:
         <ol>
             <li>Visualization of the process under execution.</li>
-            <li>Provinding controls for process execution.</li>
+            <li>Providing controls for process execution.</li>
             <li>Demonstrating your results through a simple example.</li>
         </ol>
 
@@ -93,17 +95,70 @@ By choosing one of these topics, you will have the opportunity to get acquainted
     </div>
 
 <br />
-<h2 style="background-color: #EEEEEE">Topic group #2: Theory of model transformations</h2>
+<h2 style="background-color: #EEEEEE">Topic group #2: Theory of process modeling</h2>
+<p>These topics dig deeper into the theoretical side of process modeling.<p>
+
+    <br/>
+    <h3>[<a id="6">6</a>] Optimized process generation from architectural, functional and extra-functional system characteristics</h3>
+    <div style="margin:0 0 0 25;">
+        Explicitly modeled processes are a significant step towards higher productivity. Modeling the process itself, however, is still a labor-intensive and error-prone task. The FTG+PM formalism and its recent extensions [1] enable the modeling the characteristics of the system being developed during the process. These characteristics are currently used in conjunction with the process in order to detect inconsistencies in the design. Investigating system characteristics and their relationships, in turn, enables generating processes which are the most optimal in terms of consistency, transit time, and other extra-functional properties. In this project you'll implement algorithms for process generation, based on architectural, functional and extra-functional characteristics of the system. Your work will be situated within our process modeling framework, built on top of cutting-edge Eclipse technologies. (You will be NOT asked to integrate your work with the framework beyond the necessary minimum.) Your tasks are:
+        <ol>
+            <li>Understanding the FTG+PM framework and its extensions [1].</li>
+            <li>Providing algorithms for generating process candidates suitable for implementing the system based on its characteristics, starting from design-structure matrices (DSM).</li>
+            <li>Providing a method for selecting the optimal process w.r.t. one or two KPIs.</li>
+            <li>Demonstrating your results through a simple example.</li>
+        </ol>
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes, I. Dávid, B. Meyers, K. Vanherpen, Y. Van Tendeloo, K. Berx, H. Vangheluwe, 2nd International Workshop on Collaborative Modelling in MDE, 2017. [<a href="http://msdl.cs.mcgill.ca/people/istvan/pub/commitmde-2017">PDF</a>]<br/>
+            [2] Extended dependency modeling for effective and efficient design decision support, K. Berx, H. Karhula, M. Nicolai, D. Maes. (Available on demand.)
+        </div>
+    </div>
+    
+    <br/>
+    <h3>[<a id="7">7</a>] Process scheduling and optimization by constraint solving</h3>
+    <div style="margin:0 0 0 25;">
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Resource-constrained project scheduling: models, algorithms, extensions and applications, C. Artigues, S. Demassey, E. Neron. John Wiley & Sons, 2013.[<a href="http://www.iste.co.uk/data/doc_dtalmanhopmh.pdf">PDF</a>]<br />
+            [2] Engineering Process Transformation to Manage (In)consistency, I. Dávid, J. Denil, K. Gadeyne, H. Vangheluwe, 1st International Workshop on Collaborative Modelling in MDE, 2016<br />
+            [3] A MiniZinc Tutorial, K. Marriott, P. J. Stuckey [<a href="http://www.minizinc.org/tutorial/minizinc-tute.pdf">PDF<a/>]
+        </div>
+    </div>
+    
+    <br/>
+    <h3>[<a id="8">8</a>] Inconsistency resolution by constraint solving</h3>
+    <div style="margin:0 0 0 25;">
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Engineering Process Transformation to Manage (In)consistency, I. Dávid, J. Denil, K. Gadeyne, H. Vangheluwe, 1st International Workshop on Collaborative Modelling in MDE, 2016<br />
+            [2] A MiniZinc Tutorial, K. Marriott, P. J. Stuckey [<a href="http://www.minizinc.org/tutorial/minizinc-tute.pdf">PDF<a/>]
+        </div>
+    </div>
+    
+<!--    
+<br />
+<h2 style="background-color: #EEEEEE">Topic group #3: Theory of model transformations</h2>
 <p>These topics dig deeper into the theoretical side of model transformations.<p>
 
     <br/>
-    <h3>[<a id="6">6</a>] Streaming model transformations by hierarchical timed automata</h3>
+    <h3>[<a id="9">9</a>] Streaming model transformations by hierarchical timed automata</h3>
     <p align=left><img src="streams.png" width="400" /> </p>
-    <b>Background</b>
-    <ul>
-    <li>Foundations for Streaming Model Transformations by Complex Event Processing, I. D&aacute;vid, I. R&aacute;th, D. Varr&oacute;, International Journal on Software and Systems Modeling, pp 1--28, 2016. DOI: 10.1007/s10270-016-0533-1. [<a href="http://link.springer.com/content/pdf/10.1007%2Fs10270-016-0533-1.pdf">Open access pdf</a>].</li>
-    <li>Real-time statechart semantics, H. Giese, S. Burmeister, TechReport tr-ri-03-239, University of Paderborn (2003).</li>
-    </ul>
+    <div style="margin:0 0 0 25;">
+        Streaming model transformations represent a novel class of transformations to manipulate models whose elements are continuously produced or modified in high volume and with rapid rate of change. Executing streaming transformations requires efficient techniques to recognize activated transformation rules over a live model and a potentially infinite stream of events. The semantics for streaming model transformations have been defined in [1] by the means of a finite state automaton based formalism, but the timing and hierarchical aspects are not the most appropriate. In this project you'll provide semantics for streaming model transformations by a hybrid formalism of statecharts and/or hierarchical timed automata and/or pushdown automata. Your tasks are:
+        <ol>
+            <li>Understanding the concept and underlying techniques of streaming model transformations [1].</li>
+            <li>Providing a translation of the VEPL language to statecharts and/or hierarchical timed automata.</li>
+            <li>Providing an alternative execution engine to [1], capable of executing streaming transformations.</li>
+            <li>Demonstrating your results through a simple example.</li>
+        </ol>
+        <p><b>Background</b></p>
+        <div style="margin:0 0 0 25;">
+            [1] Foundations for Streaming Model Transformations by Complex Event Processing, I. D&aacute;vid, I. R&aacute;th, D. Varr&oacute;, International Journal on Software and Systems Modeling, pp 1--28, 2016. DOI: 10.1007/s10270-016-0533-1. [<a href="http://link.springer.com/content/pdf/10.1007%2Fs10270-016-0533-1.pdf">Open access pdf</a>].<br />
+            [2] Real-time statechart semantics, H. Giese, S. Burmeister, TechReport tr-ri-03-239, University of Paderborn (2003).
+        </div>
+    </div>
+-->
 
 <br/>
 <h2 style="background-color: #EEEEEE">Topic group #3: Application of ontologies</h2>
@@ -114,7 +169,7 @@ By choosing one of these topics, you will have the opportunity to get acquainted
 <p align=middle><img src="ontologies.png" width="700" /></p>
 
     <br/>
-    <h3>[<a id="7">7</a>] Enhancing engineering process models with domain-specific knowledge</h3>
+    <h3>[<a id="9">9</a>] Enhancing engineering process models with domain-specific knowledge</h3>
     <p><b>Background</b></p>
     <ul>
     <li>Ontology Development 101: A Guide to Creating Your First Ontology, N.F. Noy, D. L. McGuinness, Stanford knowledge systems laboratory technical report KSL-01-05 and Stanford medical informatics technical report SMI-2001-0880</li>
@@ -122,38 +177,9 @@ By choosing one of these topics, you will have the opportunity to get acquainted
     </ul>
     
     <br/>
-    <h3>[<a id="8">8</a>] Constraint exploration by Bayesian reasoning</h3>
+    <h3>[<a id="10">10</a>] Constraint identification by machine learning (Bayesian reasoning)</h3>
     <p><b>Background</b></p>
     <ul>
     <li>Bayesian Reasoning Over Models, S. J. Herzig, C. J. Paredis. In 11th Workshop on Model-Driven Engineering, Verification and Validation MoDeVVa 2014, pages 69--78, 2014.</li>
     <li>Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes, I. Dávid, B. Meyers, K. Vanherpen, Y. Van Tendeloo, K. Berx, H. Vangheluwe, 2nd International Workshop on Collaborative Modelling in MDE, 2017.</li>
     </ul>
-
-<br/>
-<h2 style="background-color: #EEEEEE">Topic group #4: Constraint programming and SAT</h2>
-<p align=justify>Imperative approaches are not always the most appropriate ones to tackle certain problems. <a href="https://en.wikipedia.org/wiki/Constraint_programming">Constraint programming</a> and its derivatives, such as <a href="https://en.wikipedia.org/wiki/Boolean_satisfiability_problem">SAT</a>, however, provide a viable alternative where the solution to a problem is not defined in terms of executable steps (as in standard programming), but rather in terms of constraints over the domain which must be satisfied. A dedicated solver then attempts to satisfy the system of constraints to come up with a set of solutions. The advantage of such an approach is the improved performance. Translating the actual problem at hand, however, is usually a cumbersome task.<br/>
-By choosing one of these topics, you will have the opportunity to get acquainted with a state-of-the-art constraint solver within the context of an MDE problem.
-</p>
-<p align=middle><img src="cs.gif" width="400" /> </p>
-    
-    <br/>
-    <h3>[<a id="9">9</a>] Process scheduling and optimization by constraint solving</h3>
-    <p><b>Background</b></p>
-    <ul>
-    <li>Engineering Process Transformation to Manage (In)consistency, I. Dávid, J. Denil, K. Gadeyne, H. Vangheluwe, 1st International Workshop on Collaborative Modelling in MDE, 2016</li>
-    <li>Resource-Constrained Project Scheduling: Models, Algorithms, Extensions and Applications, C. Artigues, S. Demassey, E. Neron, ISTE, 2007.</li>
-    <li>A MiniZinc Tutorial, K. Marriott, P. J. Stuckey [<a href="http://www.minizinc.org/tutorial/minizinc-tute.pdf">PDF<a/>]</li>
-    </ul>
-    
-    <br/>
-    <h3>[<a id="10">10</a>] Inconsistency resolution by constraint solving</h3>
-    <p><b>Background</b></p>
-    <ul>
-    <li>Engineering Process Transformation to Manage (In)consistency, I. Dávid, J. Denil, K. Gadeyne, H. Vangheluwe, 1st International Workshop on Collaborative Modelling in MDE, 2016</li>
-    <li>A MiniZinc Tutorial, K. Marriott, P. J. Stuckey [<a href="http://www.minizinc.org/tutorial/minizinc-tute.pdf">PDF<a/>]</li>
-    </ul>
-    
-    
-    
-    
-    
