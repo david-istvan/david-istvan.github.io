@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
   font-weight: 100;
   color: #666;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2px;
 }
 
@@ -101,7 +101,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:900px;
+  width:950px;
   margin:0 auto;
 }
 
@@ -151,7 +151,7 @@ img {
 }
 
 header {
-  width:250px;
+  width:300px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
