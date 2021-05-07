@@ -1,0 +1,22 @@
+<header class="site-header" role="banner">
+    <div class="wrapper">
+        <!--<img src="/assets/howcom-v2-2-1500.png" style="width:auto;height:200px;display: block;margin-left: auto;margin-right: auto;"/>-->
+        <!-- {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%} -->
+        <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
+        <a class="site-title" href="/"><img src="/assets/howcom-v2-2-1500.png" width="200"></a>
+
+        {%- if page_paths -%}
+        <nav class="site-nav">
+            <div class="trigger">
+                {% assign sorted_pages = site.navigation %}
+                {% for node in sorted_pages %}
+                    {% if node.layout != "home" %}
+                        <a class="page-link" href="{{node.url}}">{{ node.title}}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </nav>
+        {%- endif -%}
+    </div>
+</header>
