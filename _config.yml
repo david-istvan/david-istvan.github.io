@@ -43,6 +43,8 @@ site-css:
 navigation:
 - title: Home
   url: /
+- title: Format
+  url: /format
 - title: Call for Papers
   url: /cfp
 - title: Important dates

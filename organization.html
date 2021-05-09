@@ -10,7 +10,7 @@ order: 10
 
 <h1>Organizers</h1>
 <div class="list-organizers">
-    {% for organizer in {{organizers}} %}
+    {% for organizer in organizers %}
         <div class="list-organizers-item">
             <a href="{{ organizer.website }}"><img src="/assets/people/{{ organizer.image }}" class="organizer-img" /></a>
             {% assign names = organizer.name | split: ", " %}
@@ -25,7 +25,7 @@ order: 10
 <h1>Program Committee - TBA</h1>
 
 <ul>
-{% for pcmember in {{pc}} %}
+{% for pcmember in pc %}
     {% assign names = pcmember.name | split: ", " %}
     {% assign lastnameUpcase = names[0] | upcase %}
     {% assign fullname = names[1] | append: " " | append: lastnameUpcase %}
