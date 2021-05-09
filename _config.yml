@@ -37,6 +37,8 @@ plugins:
 
 site-css:
 - "/assets/css/style-howcom.css"
+- "/assets/css/team.css"
+- "/assets/css/pygment_highlights.css"
 
 navigation:
 - title: Home
