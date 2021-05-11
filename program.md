@@ -26,4 +26,4 @@ No prior knowledge is required for the hands-on session: the morning talks and t
 
 # Post-workshop publication
 
-We are planning to report the valuable data collected during the workshop, along with the lessons learned, in a journal publication, such as ([SoSyM](https://www.sosym.org/), [STTT](https://www.springer.com/journal/10009) or [JOT](http://www.jot.fm/)) soon after the workshop. Interested participants will be invited to co-author this publication.
+We are planning to report the valuable data collected during the workshop, along with the lessons learned, in a journal publication (e.g., [SoSyM](https://www.sosym.org/), [STTT](https://www.springer.com/journal/10009) or [JOT](http://www.jot.fm/)) soon after the workshop. Interested participants will be invited to co-author this publication.
