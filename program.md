@@ -9,13 +9,21 @@ order: 7
 
 This is a full-day, fully online workshop, with two distinct parts.
 
-<b>I. Morning session: Presentations.</b> Lightning talks, vision paper presentations, case paper presentations; and a Q&A session after each talk. All talks will be recorded and published on the workshop’s website.
+## I. Morning session: Presentations.
+We will entertain a range of presentations in the form of lightning talks, vision paper presentations, and case paper presentations. After each talk, we will animate a Q&A discussion session. All talks will be recorded and published on the workshop website.
 
 *Accepted papers & detailed program TBA*.
 
 
-<b>II. Afternoon session: Hands-on experimentation.</b> The participants will be invited to experiment with the tools of their choice. Tool developers are invited to support the experiments with their tools by providing a supervisory presence, and preferably a brief tutorial before an experiment commences. Participants are invited and encouraged to experiment with multiple tools in the afternoon; and are asked to subsequently evaluate their experience. No prior knowledge is required for the afternoon session; the talks of the morning session, and the brief tutorials in the afternoon will provide sufficient information to enable working with the tools. The experiments will be conducted in Zoom breakout rooms.
+## II. Afternoon session: Hands-on experimentation.
+We invite the participants to experiment with the collaborative modeling tools of their choice.
+Tool developers are invited to support the hands-on session assigned to their tools by providing a supervisory presence, and preferably a brief tutorial before the session starts. We encourage participants to experiment with multiple tools in the afternoon.
+We then ask them to subsequently evaluate their experience.
+No prior knowledge is required for the hands-on session: the morning talks and the brief tutorials should provide sufficient information to enable working with the tools. The experiments will be conducted in Zoom breakout rooms.
 
-# Post-workshop activities
+*List of tools available TBA*.
 
-The valuable data collected during the workshop, along with the lessons learned, will be reported in a journal paper soon after the workshop. Interested participants will be invited to co-author this publication.
+
+# Post-workshop publication
+
+We are planning to report the valuable data collected during the workshop, along with the lessons learned, in a journal publication, such as ([SoSyM](https://www.sosym.org/), [STTT](https://www.springer.com/journal/10009) or [JOT](http://www.jot.fm/)) soon after the workshop. Interested participants will be invited to co-author this publication.
