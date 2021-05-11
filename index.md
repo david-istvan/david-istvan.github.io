@@ -7,7 +7,7 @@ order: 0
 
 <!-- <div style="width:100%;text-align:center;background:crimson;color:white;font-weight:500;padding:5px 2px 5px 2px;"><b>IMPORTANT!</b> This is a test message. (10.05.2021.)</div> -->
 
-![howcom](/assets/howcom-v2-trim-web-2.png)
+![howcom](/assets/howcom-v2-2-trim-1920.png)
 
 <div style="text-align: right">
 <p style="font-size:25px;margin-bottom:0px;font-weight:500;">Co-located with <a href="http://www.modelsconference.org">MoDELS</a></p>
