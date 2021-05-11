@@ -18,4 +18,4 @@ This is a full-day, fully online workshop, with two distinct parts.
 
 # Post-workshop activities
 
-The valuable data collected during the workshop, along with the lessons learned, will be reported in a journal paper soon after the workshop. Interested participants will be invited to this publication.
+The valuable data collected during the workshop, along with the lessons learned, will be reported in a journal paper soon after the workshop. Interested participants will be invited to co-author this publication.
