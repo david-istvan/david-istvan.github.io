@@ -12,8 +12,8 @@ order: 0
 <div style="text-align: right">
 <p style="font-size:25px;margin-bottom:0px;font-weight:500;">Co-located with <a href="http://www.modelsconference.org">MoDELS</a></p>
 <p>Sun 10 - Fri 15 October 2021<br/>
-<strike>Fukuoka, Japan</strike><br/>
-Fully virtual</p>
+<!--<strike>Fukuoka, Japan</strike><br/>-->
+Virtual</p>
 <br/></div>
 
 The ability to collaboratively engineer models of systems has become a particularly important topic in Model-Driven Engineering (MDE). Apart from becoming multidisciplinary, engineering teams are also getting more and more distributed in space and time. The lack of physical presence forces engineers to rely on digital means of collaboration. Given the recent trends in the research and development of collaborative MDE tools, it is high time for their hands-on evaluation.
