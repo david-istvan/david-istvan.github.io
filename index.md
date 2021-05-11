@@ -22,6 +22,5 @@ The rare opportunity, provided by the online format of the 2021 edition of MoDEL
 
 ## Who is this workshop for?
 
-This workshop primarily aims to bring together two groups of the collaborative MDE landscape. <i>Tool builders</i>, who are wishing to evaluate their tools in a highly realistic setting; and the current or potential <i>users</i> of collaborative MDE tools in general. These two groups share the common goal of carrying out experiments within a properly established and controlled environment. Tool builders might also find this workshop a good opportunity for creating publicity for their tools.
-
-This workshop is also open to researchers and practitioners with innovative ideas regarding collaborative MDE. To this end, we invite two types of papers.
+This workshop primarily aims to bring together two groups of the collaborative MDE landscape. <i>Tool builders</i>, who are wishing to evaluate their tools in a highly realistic setting; and the current or potential <i>users</i> of collaborative MDE tools in general. These two groups share the common goal of carrying out experiments within a properly established and controlled environment. Tool builders might also find this workshop a good opportunity to promote their tools.
+This workshop is also open to researchers and practitioners with innovative ideas regarding collaborative MDE. See the [Program](program) and [call for papers](cfp) for more information.
